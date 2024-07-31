@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agência Kalan: Transformando ideias em sucesso com estratégia e criatividade.">
+    <title>Site da Agência - Kalan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-bottom: 2px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #6a0dad; /* Roxo */
+        }
+        nav {
+            margin: 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007bff; /* Azul */
+        }
+        section {
+            padding: 20px;
+        }
+        .hero {
+            background: linear-gradient(45deg, #ff69b4, #ffcc00); /* Rosa e Amarelo */
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 0;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #6a0dad; /* Roxo */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #fff;
+            padding: 10px 20px;
+            border-top: 2px solid #ddd;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agência Kalan</h1>
+        <nav aria-label="Menu de navegação">
+            <a href="#sobre">Sobre</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <a href="#trabalhe-conosco">Trabalhe Conosco</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Bem-vindo à Agência Kalan</h2>
+        <p>Transformando ideias em sucesso com estratégia e criatividade.</p>
+    </section>
+    <section id="sobre">
+        <h2>Sobre a Agência</h2>
+        <p>A Agência Kalan é especializada em gestão de mídias sociais, marketing digital e criação de conteúdo. Nossa missão é ajudar empresas e indivíduos a alcançar seus objetivos de forma inovadora e eficaz.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2.</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3.</p>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contact-form">
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <section id="trabalhe-conosco">
+        <h2>Quer Trabalhar Conosco?</h2>
+        <p>Se você está interessado em fazer parte da nossa equipe, entre em contato conosco e envie seu currículo. Estamos sempre à procura de talentos criativos e dedicados!</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Agência Kalan. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
